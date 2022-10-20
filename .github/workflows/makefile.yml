@@ -12,7 +12,12 @@ jobs:
     runs-on: macos-latest
 
     steps:
+    - name: Checkout master
     - uses: actions/checkout@v3
+    - name: Checkout submodules
+      uses: slack-libpurple/git-checkout-submodule-action@master
+      with:
+        remote: true
       
     - name: Install dependencies
       run: make
