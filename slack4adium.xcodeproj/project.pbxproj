@@ -516,6 +516,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1.1;
+				EXCLUDED_ARCHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(SOURCE_ROOT)/adium/Frameworks/libglib.framework/Versions/Current/Headers",
 					"$(SOURCE_ROOT)/adium/Frameworks/libintl.framework/Versions/Current/Headers",
@@ -525,7 +527,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/slack4adium/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vigumnov.slack4adium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -537,6 +540,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1.1.1;
+				EXCLUDED_ARCHS = "";
 				HEADER_SEARCH_PATHS = (
 					"$(SOURCE_ROOT)/adium/Frameworks/libglib.framework/Versions/Current/Headers",
 					"$(SOURCE_ROOT)/adium/Frameworks/libintl.framework/Versions/Current/Headers",
@@ -546,7 +551,8 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/slack4adium/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				ONLY_ACTIVE_ARCH = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vigumnov.slack4adium;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
